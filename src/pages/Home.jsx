@@ -10,7 +10,7 @@ function Home() {
     height:"700px",
     backgroundSize:"cover",
     backgroundPosition:"center",
-    paddingTop:"250px",
+    paddingTop:"300px",
     textAlign : "center"
     }}>
       <h1 id='home' style={style.h1}>Hi I'm {name}</h1>
@@ -27,7 +27,6 @@ const style = {
   h1 : {
     fontSize:"40px",
     color : "white",
-    // textShadow : '5px 2px 7px grey',
     paddingRight : "700px",
   },
   p : {

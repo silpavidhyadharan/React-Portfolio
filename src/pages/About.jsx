@@ -16,7 +16,7 @@ function About() {
             I am a motivated learner, improving my technical and English communication skills every day, and I am looking for an opportunity to start my  career and grow as a developer.</p>
         </div>
         <div style={{ width: "700px", height: "500px", backgroundColor: "white", marginLeft: "60px" }}>
-        <img src="https://i.pinimg.com/736x/13/34/a7/1334a743750bd7685cbeb74c81098649.jpg" width={'500px'} alt="no image" />
+        <img src="" width={'500px'} alt="no image" />
         </div>
       </div>
     </div>
