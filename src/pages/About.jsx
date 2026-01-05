@@ -1,6 +1,8 @@
 import React from 'react'
+import img from '../assets/images/background2.jpg'
 
-function About() {
+function About({data}) { 
+
   return (
     <div>
       <h1 id='about' style={styles.h}></h1>
@@ -16,10 +18,20 @@ function About() {
             I am a motivated learner, improving my technical and English communication skills every day, and I am looking for an opportunity to start my  career and grow as a developer.</p>
         </div>
         <div style={{ width: "700px", height: "500px", backgroundColor: "white", marginLeft: "60px" }}>
-        <img src="" width={'500px'} alt="no image" />
+        <img src={img} width={'700px'} height={'500px'} alt="no image" />
         </div>
       </div>
+      <div style={{textAlign:"center",fontFamily:"cursive", height:"300px",width:"800px",backgroundColor:"#e0deda",marginLeft:"350px",marginTop:"50px",paddingTop:"30px"}}>
+        <h4>Name : {data.name}</h4>
+        <h4>Age : {data.age}</h4>
+        <h4>Place : {data.place}</h4>
+        <h4>Course : {data.course}</h4>
+        <h4>Contact Number : {data.contact}</h4>
+        <h4>Email : {data.email}</h4>
+
+      </div>
     </div>
+
   )
 }
 

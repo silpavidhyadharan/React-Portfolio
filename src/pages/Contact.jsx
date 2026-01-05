@@ -27,7 +27,7 @@ function Contact() {
 
         <div style={{
           width: "80%",
-          backgroundColor: "#3d3a32",
+          backgroundColor: "#ada5a5",
           margin: "auto",
           padding: "80px 0",
           borderRadius: "10px"

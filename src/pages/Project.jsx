@@ -11,7 +11,7 @@ function Project() {
 
         <Col>
           <Card className="h-100 shadow">
-            <Card.Img variant="top" src="https://www.reactiondistributing.com/wp-content/uploads/2022/03/1-An-Overview-To-Waste-Management-System-.jpg" alt="Garbage Management System" style={{ height: "200px", objectFit: "cover" }} />
+            <Card.Img variant="top" src="https://www.reactiondistributing.com/wp-content/uploads/2022/03/1-An-Overview-To-Waste-Management-System-.jpg" alt="Garbage Management System" style={{ height: "400px", objectFit: "cover" }} />
             <Card.Body>
               <Card.Title>Garbage Management System</Card.Title>
               <Card.Text>
@@ -30,7 +30,7 @@ function Project() {
               variant="top"
               src="https://woovina.com/images/2020/07/25/best-ecommerce-website-templates.jpg"
               alt="E-Commerce Website"
-              style={{ height: "200px", objectFit: "cover" }}
+              style={{ height: "400px", objectFit: "cover" }}
             />
             <Card.Body>
               <Card.Title>E-Commerce Website</Card.Title>
@@ -43,25 +43,25 @@ function Project() {
           </Card>
         </Col>
 
-        <Col>
-          <Card className="h-100 shadow">
-            <Card.Img
-              variant="top"
-              src="https://www.apilean.com/wp-content/uploads/2021/11/vss0n7du-1920.jpg"
-              alt="E-Vigilance System"
-              style={{ height: "200px", objectFit: "cover" }}
-            />
-            <Card.Body>
-              <Card.Title>E-Vigilance System</Card.Title>
-              <Card.Text>
-                An online complaint management system where users can
-                submit issues with details and images.
-                Authorities can review complaints and update their status
-                for better transparency.
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </Col>
+<Col>
+  <Card className="h-100 shadow">
+    <Card.Img
+      variant="top"
+      src="https://img.freepik.com/premium-vector/cartoon-illustration-bookstore-with-open-book-sign_1203312-2470.jpg?w=360"
+      alt="Book Shop Website"
+      style={{ height: "400px", objectFit: "cover" }}
+    />
+    <Card.Body>
+      <Card.Title>Book Shop Website</Card.Title>
+      <Card.Text>
+        An online book store where users can browse books by category,
+        view book details, add books to cart, and place orders easily.
+        The system provides a simple and user-friendly shopping experience.
+      </Card.Text>
+    </Card.Body>
+  </Card>
+</Col>
+
 
       </Row>
 

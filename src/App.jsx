@@ -8,13 +8,31 @@ import Contact from './pages/Contact'
 
 
 function App() {
+
+  const user = {
+  "name" : "Silpa Vidhyadharan",
+  "age" : 21,
+  "place" : "idukki",
+  "course" : "BCA",
+  "contact" : 9889876767,
+  "email" : "Silpavidhyadharan@gmail.com",
+}
+
+const skills = {
+  "sub1" : "Python",
+  "sub2" : "Django",
+  "sub3" : "HTML &  CSS",
+  "sub4" : "JavaScript",
+  "sub5" : "React (Learning)"
+}
+
   return (
     <div>
       <Topnavbar></Topnavbar>
       <Home></Home>
-      <About></About>
+      <About data={user}></About>
       <Project></Project>
-      <Skills></Skills>
+      <Skills user={skills} data={percentage}></Skills>
       <Contact></Contact>
 
     </div>
